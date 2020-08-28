@@ -20,3 +20,7 @@ I now reupload the code I (J Francisco Rader or Kidz) have written, removing the
 ## Contribute
 
 We are open to contributions and suggestions!
+
+## License
+
+This software is published under the GNU AFFERO GENERAL PUBLIC LICENSE Version 3.
