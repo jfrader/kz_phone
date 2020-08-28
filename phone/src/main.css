@@ -1,0 +1,27 @@
+/* KzPhone - A FiveM phone resource for GTA V
+Copyright (C) 2020  J Francisco Rader (francisco.rader@gmail.com)
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see <http:www.gnu.org/licenses/>.
+
+ See LICENSE in the project root for license information. */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+}

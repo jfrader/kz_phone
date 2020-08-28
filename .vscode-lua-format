@@ -1,0 +1,3 @@
+indent_width: 2
+chop_down_parameter: true
+chop_down_table: true
