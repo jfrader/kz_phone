@@ -34,10 +34,11 @@ const useStyles = makeStyles(theme => ({
 
 export const NotificationBar = ({ notifications = [] }) => {
   const classes = useStyles();
+
   return (
     <Grid className={classes.root} container justify="space-between" wrap="nowrap">
       <Grid container item wrap="nowrap">
-        {notifications.map(notification => (
+        {notifications.map((notification, i) => (
           <Grid item key={notification.key} component={IconButton} className={classes.icon}>
             {notification.icon}
           </Grid>

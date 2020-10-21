@@ -16,6 +16,8 @@ export const useKeyboard = () => {
     ArrowDown: useSetRecoilState(keyboardState.ArrowDown),
     Backspace: useSetRecoilState(keyboardState.Backspace),
     Enter: useSetRecoilState(keyboardState.Enter),
+    Escape: useSetRecoilState(keyboardState.Escape),
+    F1: useSetRecoilState(keyboardState.F1),
   };
 
   return (key, handler) => {

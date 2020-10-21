@@ -13,6 +13,15 @@
       "palette": {
         "type": "light"
       }
+    },
+    "default-asd": {
+      "typography": {
+        "fontSize": "55px",
+        "htmlFontSize": "55px"
+      },
+      "palette": {
+        "type": "light"
+      }
     }
   }
 }

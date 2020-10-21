@@ -36,4 +36,8 @@ export const keyboardState = {
     key: "Escape",
     default: null,
   }),
+  F1: atom({
+    key: "F1",
+    default: null,
+  }),
 };

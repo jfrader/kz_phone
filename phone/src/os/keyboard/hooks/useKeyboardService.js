@@ -18,6 +18,7 @@ const validKeys = [
   "Backspace",
   "Enter",
   "Escape",
+  "F1",
 ];
 
 const isKeyValid = key => validKeys.indexOf(key) !== -1;
@@ -31,6 +32,7 @@ export const useKeyboardService = () => {
     Backspace: useRecoilValue(keyboardState.Backspace),
     Enter: useRecoilValue(keyboardState.Enter),
     Escape: useRecoilValue(keyboardState.Escape),
+    F1: useRecoilValue(keyboardState.F1),
   };
 
   // Subscribe to client keypresses when phone is not focused

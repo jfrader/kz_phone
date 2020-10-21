@@ -7,11 +7,10 @@
 // See LICENSE in the project root for license information.
 import React from "react";
 import { useConfig } from "../../../os/config/hooks/useConfig";
-import { blue, grey, green, orange, purple } from "@material-ui/core/colors";
+import { blue, grey, green, purple } from "@material-ui/core/colors";
 import ContactsIcon from "@material-ui/icons/Contacts";
 import SettingsIcon from "@material-ui/icons/Settings";
 import PhoneIcon from "@material-ui/icons/Phone";
-import AccountBalanceIcon from "@material-ui/icons/AccountBalance";
 import { atom } from "recoil";
 import { CalculatorIcon } from "../../../apps/calculator/components/CalculatorIcon";
 import { Route } from "react-router-dom";
@@ -19,7 +18,6 @@ import { DialerApp } from "../../../apps/dialer/components/DialerApp";
 import { ContactsApp } from "../../../apps/contacts/components/ContactsApp";
 import { CalculatorApp } from "../../../apps/calculator/components/CalculatorApp";
 import { SettingsApp } from "../../../apps/settings/components/SettingsApp";
-import { BankApp } from "../../../apps/bank/components/BankApp";
 
 const appsState = atom({
   key: "apps",
@@ -60,15 +58,6 @@ const appsState = atom({
         color: grey[50],
         path: "/settings",
         Route: () => <Route path="/settings" component={SettingsApp} />,
-      },
-      {
-        id: "BANK",
-        nameLocale: "APPS_BANK",
-        icon: <AccountBalanceIcon />,
-        backgroundColor: orange[600],
-        color: orange[50],
-        path: "/bank",
-        Route: () => <Route path="/bank" component={BankApp} />,
       },
     ],
   },

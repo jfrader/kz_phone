@@ -5,5 +5,5 @@
 //along with this program.  If not, see <http://www.gnu.org/licenses/>.
 //
 // See LICENSE in the project root for license information.
-const RESOURCE_NAME = "kz_phone";
+export const RESOURCE_NAME = "kz_phone";
 export const NUI_PHONE_URL = `https://${RESOURCE_NAME}`;

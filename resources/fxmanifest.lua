@@ -5,7 +5,7 @@ author 'J Francisco Rader (francisco.rader@gmail.com'
 description 'KzPhone'
 version '0.0'
 
-client_scripts {"config.lua", "client/animations.lua", "client/main.lua"}
+client_scripts {"config.lua", "client/events.lua", "client/animations.lua", "client/main.lua"}
 
 server_scripts {}
 

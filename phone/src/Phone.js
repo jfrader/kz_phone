@@ -14,7 +14,7 @@ import MessageIcon from "@material-ui/icons/Email";
 
 import { HomeApp } from "./apps/home/components/Home";
 import { ThemeProvider } from "@material-ui/core";
-import { useInitKeyboard } from "./os/keyboard/hooks/useKeyboard";
+import { useKeyboardService } from "./os/keyboard/hooks/useKeyboardService";
 import { NotificationIcon } from "./os/notifications/components/NotificationIcon";
 import { NotificationBar } from "./os/notifications/components/NotificationBar";
 import { Navigation } from "./os/navigation-bar/components/Navigation";
@@ -68,7 +68,7 @@ function Phone() {
   const { settings, currentTheme } = useSettings();
   const { allApps } = useApps();
   useSimcardService();
-  useInitKeyboard();
+  useKeyboardService();
 
   if (visibility === false) {
     return null;

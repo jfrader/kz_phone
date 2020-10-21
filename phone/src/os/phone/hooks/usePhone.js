@@ -7,11 +7,10 @@
 // See LICENSE in the project root for license information.
 import { useRecoilValue } from "recoil";
 import { phoneState } from "./state";
-import { useNuiCallback } from "../../nui-events/hooks/useNuiCallback";
 
 export const usePhone = () => {
   const visibility = useRecoilValue(phoneState.visibility);
   const powerOff = useRecoilValue(phoneState.powerOff);
-  const closePhone = useNuiCallback("PHONE", "closePhone");
-  return { visibility, powerOff, closePhone };
+
+  return { visibility, powerOff };
 };
