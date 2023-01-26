@@ -15,7 +15,7 @@ with the help of Chip, Rocko and BtnGaming as they as well have had the same ide
 
 After one week, I decided to open myself from the team as I have had a couple of bad moments and discussions with one of the members.
 
-I now reupload the code I (J Francisco Rader or Kidz) have written, removing the other files that I have not written.
+I now reupload the code I have written, removing the other files that I have not written.
 
 ## Contribute
 
